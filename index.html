@@ -9,7 +9,15 @@
     <script src="main.js"></script>
   </head>
   <body>
-    hi
+    <button onclick="R.player.play()">Play</button>
+    <button onclick="R.player.pause()">Pause</button>
+    <button onclick="R.player.previous()">Prev</button>
+    <button onclick="R.player.next()">Next</button>
+    <div class="info">
+      <div class="artist"></div>
+      <div class="title"></div>
+      <div class="album"></div>
+    </div>
     <script>
       var fun = function() {
         return $('body');
